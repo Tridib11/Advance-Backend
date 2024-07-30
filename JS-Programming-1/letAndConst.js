@@ -43,3 +43,14 @@ console.log(x)
 }
 
 console.log(z)
+
+//var variables are function scoped .If it is not in the function it is in the global scope
+function printX(){
+  var t=10
+  console.log(t)
+}
+
+printX()
+
+// console.log(t)// will result in t is not defined
+
