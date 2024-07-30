@@ -31,3 +31,15 @@ console.log(x)
 }
 
 // console.log(r) //r is not defined
+
+
+
+//For var variable it doesnot do anything like the above
+
+
+{
+  var z=10
+  console.log(z)
+}
+
+console.log(z)
