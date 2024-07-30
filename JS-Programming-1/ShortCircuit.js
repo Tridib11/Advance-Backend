@@ -6,7 +6,7 @@ console.log(false||false)
 
 function left(){
   console.log("Left")
-  return true
+  return true``
 }
 
 function right(){
