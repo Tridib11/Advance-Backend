@@ -16,7 +16,7 @@ The console.log function returns undefined.
 */
 
 
-function left(){
+function left(){ 
   return console.log("left")
 }
 
