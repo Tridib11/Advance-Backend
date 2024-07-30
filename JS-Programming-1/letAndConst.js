@@ -20,6 +20,9 @@ console.log(x)
 
 
 
+//TDZ Depends on the order
+
+
 
 {
   // console.log(r)// it will say cannot acces X before initialization called as TDZ(Temporal Dead Zone)
