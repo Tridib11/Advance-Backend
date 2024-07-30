@@ -54,3 +54,16 @@ printX()
 
 // console.log(t)// will result in t is not defined
 
+
+
+
+//for function in var varible it will result in undefined rather than saying cannot be used before declaring . This is because of Hoisting and no TDZ is here 
+
+
+function tr(){
+  console.log(cv) //undefined
+  var cv=10
+  console.log(cv)
+}
+
+tr()
