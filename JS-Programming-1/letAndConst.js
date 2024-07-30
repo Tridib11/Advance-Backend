@@ -59,6 +59,8 @@ printX()
 
 //for function in var varible it will result in undefined rather than saying cannot be used before declaring . This is because of Hoisting and no TDZ is here 
 
+//Declaration hoisting
+
 
 function tr(){
   console.log(cv) //undefined
