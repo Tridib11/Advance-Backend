@@ -69,3 +69,15 @@ function tr(){
 }
 
 tr()
+
+
+//Let and const are blocked scope where var is not 
+
+console.log(x)
+{
+  var rohan=2
+  {
+    let rohan=5
+  }
+  console.log(rohan)
+}
