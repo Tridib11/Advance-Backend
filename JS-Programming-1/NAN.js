@@ -15,3 +15,4 @@ console.log(isNaN("tridib")) //true because it converts the value toNumber
 console.log(Number.isNaN("tridib"))
 console.log(Number.isNaN(x))
 
+
