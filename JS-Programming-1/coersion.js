@@ -8,7 +8,7 @@ console.log(null==false)
 
 /*
 
-x==y
+x==y 
 
 x->Number y->String -> converts y to a number and then compare
 x->String y->Number -> Converts x to a number and then compare
