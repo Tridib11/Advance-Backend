@@ -11,3 +11,7 @@ console.log(isNaN(x)) //true
 
 console.log(isNaN("tridib")) //true because it converts the value toNumber 
 
+//Better way
+console.log(Number.isNaN("tridib"))
+console.log(Number.isNaN(x))
+
