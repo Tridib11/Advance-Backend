@@ -38,5 +38,10 @@ function x(){
 //  x()
 
 
+/*
+var globally change kore i take r let shob kotakei notun dei
+to use var to do this last soln ta....
+*/
+
 
 
