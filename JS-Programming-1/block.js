@@ -18,3 +18,21 @@ let t=10
 
 console.log(z) //100 var globally jinish take change kore
 console.log(t) //10 kintu let kore na
+
+
+
+
+
+const test=(j)=>{
+  return j*j
+}
+
+
+function hello(j){
+  return j*j
+}
+console.log(test(2))
+console.log(test)
+
+console.log(hello(2))
+console.log(hello)
