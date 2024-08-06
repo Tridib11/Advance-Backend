@@ -3,7 +3,12 @@ function x(){
   function y(){
     console.log(z)
   }
-  y()
+  return y
 }
 
-x()
+// x()
+
+
+
+var k=x()
+k()
