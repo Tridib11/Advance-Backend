@@ -4,6 +4,6 @@ function testingGlobal(){
   content="js"
   console.log(teacher)
 }
+console.log(content)
 
 testingGlobal()
-console.log(content)
