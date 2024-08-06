@@ -11,3 +11,9 @@ var b=function (){
   console.log("b called")
 }
 
+//Named function expression
+
+var x=function xyz(){
+  
+}
+
