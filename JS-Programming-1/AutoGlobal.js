@@ -1,9 +1,17 @@
-var teacher="Rohan"
-function testingGlobal(){
-  var teacher="Tridib"
-  content="js"
+var teacher="Tridib"
+function fun(){
+  var teacher="Pulkit"
+  content='JS' //autoglobal
   console.log(teacher)
+  console.log(content)
 }
-console.log(content)
 
-testingGlobal()
+function gun(){
+  var student="sarthak"
+  console.log(student)
+}
+
+// console.log(content)
+fun()
+gun()
+console.log(content)
