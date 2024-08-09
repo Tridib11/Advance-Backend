@@ -1,5 +1,5 @@
 function fun(x) {
-  let i; //var i
+  let i; //var i same thing
   if (x % 2 == 0) {
     i = 0;
   } else {
