@@ -20,7 +20,5 @@ function output(num){
   console.log(`The number is ${num}`)
 }
 
-
-
 createPromiseWithTimeOut().then(output)
 
