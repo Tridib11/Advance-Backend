@@ -7,6 +7,13 @@ function counter(){
 }
 
 var counter1=counter()
+
 for(let i=1;i<=5;i++){
   counter1()
+}
+
+var counter2=counter()
+
+for(let i=1;i<=5;i++){
+  counter2()
 }
