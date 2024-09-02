@@ -13,3 +13,11 @@ const allUsers=[{
 }]
 
 
+let count=0;
+for(let i=0;i<allUsers.length;i++){
+  if(allUsers[i]["gender"]=='Male'){
+    count+=1;
+  }
+}
+
+console.log(`There are ${count} male`)
